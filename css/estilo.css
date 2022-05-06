@@ -1,5 +1,9 @@
 body{
-    background-color:#FFFAFA ;
+    background-color:#f2efe9 ;
+}
+
+.fundo_diferente{
+    background-image: linear-gradient(to right, #f2f2f2, #fcfcfc );
 }
 
 .img_topo{
@@ -26,7 +30,25 @@ h1{
 
 p{
     font-size: 1.4rem;
-    color: black;
+    color: #222222;
     text-align: justify;
     text-indent: 40px;
 }
+
+.parag_letras p{
+    font-size: 1em;
+
+}
+
+.pinta_botao {
+    width: 150px;
+    margin: 50pxS;
+    background-image :  linear-gradient (para a direita ,  #F08080  ,  #fff );
+    margem : automático;            
+  }
+
+  .botao {
+    padding-top :  15px ;
+    
+  }
+ 

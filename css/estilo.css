@@ -30,6 +30,12 @@ figure{
 h1{
     text-align: center;
     color: #1E90FF;
+    font-size: 2em;
+}
+h2{
+    text-align: center;
+    color: #1E90FF;
+    font-size: 1.5em;
 }
 
 p{

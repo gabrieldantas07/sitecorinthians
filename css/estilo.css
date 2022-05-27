@@ -6,8 +6,55 @@ body{
     background-color:#f2efe9 ;
 }
 
+.logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.menu, footer{
+    background-color: rgba(220,220,220,0.7);
+    padding: 1.5%;
+}
+
+.itens_menu{
+    line-height: 1.5;
+    text-align: center;
+}
+
+.itens_menu a{
+    font-size: 1.2em;
+  }
+  
+  .itens_menu a:link{
+   
+      color: #fff;
+      text-decoration: none;
+    }
+    
+   
+  .itens_menu a:visited {
+      color: #FFF;
+      text-decoration: none;
+    }
+    
+    /* mouse over link */
+  .itens_menu a:hover {
+      color: #fff;
+      padding: 0.8%;    
+      background-color: rgba(128, 128, 128, 0.3); 
+      text-decoration: none;
+      border-radius: 15%;
+  
+    }
+    
+    /* selected link */
+  .itens_menu a:active {
+      color: #FFF;
+      text-decoration: none;
+    }
+
 .fundo_diferente{
-    background-image: linear-gradient(to right, #f2f2f2, #fcfcfc );
+    background-image: linear-gradient(right, #f2f2f2, #fcfcfc );
 }
 
 .img_topo{
@@ -16,6 +63,8 @@ body{
 
 .img_corpo{
     width: 50%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 figure{
@@ -36,29 +85,36 @@ h2{
     text-align: center;
     color: #1E90FF;
     font-size: 1.5em;
+    margin-bottom: 2%;
 }
 
 p{
-    font-size: 1.4rem;
+    font-size: 1.4em;
     color: #222222;
     text-align: justify;
     text-indent: 40px;
 }
 
-.parag_letras p{
+.parag_letras > p{
     font-size: 1em;
+    line-height: 1.5;
 
 }
 
 .pinta_botao {
     width: 150px;
-    margin: 50pxS;
-    background-image :  linear-gradient (para a direita ,  #F08080  ,  #fff );
-    margem : automático;            
+    margin: 50px;
+    background-image : linear-gradient(right, #F08080, #fff  );
+    margin: auto;            
   }
 
   .botao {
     padding-top :  15px ;
     
+  }
+
+  footer > p{
+      font-size: 1.2em;
+      text-align: center;
   }
  

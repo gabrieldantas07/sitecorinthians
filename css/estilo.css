@@ -155,6 +155,10 @@ p{
     margin: auto;            
 }
 
+.pinta_botao:hover{
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
 .botao {
     padding-top :  15px ;
     
@@ -293,6 +297,60 @@ input[type=submit]:hover {
       margin-top: 0;
      
     }
+
+    .banner{
+        margin-top: 40%;
+    }
+    
+    .logo{
+        padding-top: 1%;
+        padding-bottom: 1%;
+        text-align: center;
+    }
+    
+    .descer{
+        margin-top: 50%;
+    }
+
+/*Faz uma alteração quando a tela fica maior que 601px */
+@media screen and (min-width:601px) {
+
+    header{
+      flex-direction: row;
+    }
+  
+    .itens_menu{
+      position: absolute;
+      right: 3%;
+      top: 30%;
+      width: 70%;
+  
+    }
+  
+    .itens_menu ul li {
+          display: inline;
+          margin-left: 1%;
+  
+  
+    }
+  
+    .banner{
+      margin-top: 8%;
+    }
+  
+    .logo{
+      padding-top: 1%;
+      padding-bottom: 1%;
+      text-align: left;
+      width: 30%;
+    }
+  
+    .descer{
+      margin-top: 10%;
+    }
+  
+      
+  }
   
    
   

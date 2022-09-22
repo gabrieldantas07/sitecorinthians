@@ -7,7 +7,13 @@ body{
 }
 
 header{
+    font-family: 'Patrick Hand', cursive;
+    background-color: goldenrod;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
   
 .fixo{
@@ -15,7 +21,13 @@ header{
     top: 0;
     left: 0;
     right: 0;
-  
+    z-index: 1;
+}
+
+footer{
+    background-color: rgb(32, 218, 187);
+    padding: 1.5%;
+    font-family: 'Bebas Neue', cursive;
 }
   
 .banner{
@@ -32,9 +44,12 @@ header{
     width: 15%;
 }
 
-.menu, footer{
+.menu{
     background-color: rgba(220, 220, 220);
-    padding: 1.5%;
+    /* rgba(199, 21, 133, 0.2);  */  
+    /* rgba(143, 188, 143, 0.2); */
+    /* rgba(128, 128, 128, 0.4); */
+    padding: 0.7%;
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -66,7 +81,6 @@ header{
     background-color: rgba(128, 128, 128, 0.3); 
     text-decoration: none;
     border-radius: 15%;
-  
 }
     
 /* selected link */
@@ -142,31 +156,38 @@ p{
     font-family: 'Comfortaa', cursive;
 }
 
-.parag_letras > p{
+/*.parag_letras > p{
     font-size: 1em;
     line-height: 1.5;
 
-}
+}*/
 
 .pinta_botao {
     width: 150px;
-    margin: 50px;
-    background-image : linear-gradient(right, #F08080, #fff  );
-    margin: auto;            
+    height: 40px;
+    background-color: rgb(32, 44, 218);
+    margin: auto;
+    padding: 0.2%;
+    text-align: center;
+    padding-top: 3%;
+    border-radius: 4px;           
 }
 
 .pinta_botao:hover{
     background-color: rgba(128, 128, 128, 0.3);
 }
 
-.botao {
-    padding-top :  15px ;
-    
+.pinta_botao a:link, .pinta_botao:visited{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 footer > p{
       font-size: 1.2em;
       text-align: center;
+      color: #222222;
+      font-family: 'Staatliches', cursive;
 }
 
 section{
@@ -194,6 +215,7 @@ table{
     border-collapse: collapse;
     width: 100%;
     margin-top: 2%;
+    font-family: 'Staatliches';
 }
 
 audio{
@@ -239,6 +261,7 @@ audio::-webkit-media-controls-panel{
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
+    font-family: 'Bebas Neue';
   }
 
 input[type=text], select, textarea, input[type=tel], input[type=email] {
@@ -247,6 +270,7 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
     border: 1px solid #ccc;
     border-radius: 15px;
     resize: vertical;
+    font-family: 'Bebas Neue';
   }
  
 

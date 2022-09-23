@@ -314,8 +314,8 @@ input[type=submit]:hover {
 }
   
   
-@media screen and (max-width:450px) {
-  
+@media screen and (max-width:600px) {
+
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
@@ -324,60 +324,27 @@ input[type=submit]:hover {
 
     .banner{
         margin-top: 40%;
-    }
-    
-    .logo{
-        padding-top: 1%;
-        padding-bottom: 1%;
-        text-align: center;
-    }
-    
-    .descer{
-        margin-top: 50%;
-    }
-
-/*Faz uma alteração quando a tela fica maior que 601px */
-@media screen and (min-width:601px) {
-
-    header{
-      flex-direction: row;
-    }
-  
-    .itens_menu{
-      position: absolute;
-      right: 3%;
-      top: 30%;
-      width: 70%;
-  
-    }
-  
-    .itens_menu ul li {
-          display: inline;
-          margin-left: 1%;
-  
-  
-    }
-  
-    .banner{
-      margin-top: 8%;
-    }
-  
-    .logo{
-      padding-top: 1%;
-      padding-bottom: 1%;
-      text-align: left;
-      width: 30%;
-    }
-  
-    .descer{
-      margin-top: 10%;
-    }
-  
-      
+    }   
   }
-  
-   
-  
-    
+
+@media screen and (min-width: 601px) {
+    header{
+        flex-direction: row;
+    }
+
+    .itens_menu{
+        position: absolute;
+        right: 3%;
+        top: 30%;
+        width: 60%;
+    }
+
+    .itens_menu ul li{
+        display: inline;
+        margin-left: 1%;
+    }
+
+    .banner{
+        margin-top: 3%;
+    }
 }
-   
